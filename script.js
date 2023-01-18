@@ -1,6 +1,5 @@
 // Var
-// var testWord = "Pneumonoultramicroscopicsilicovolcanoconiosis"
-var testWords = ["Pneumonoultramicroscopicsilicovolcanoconiosis", "Developer"];
+var testWords = ["Pneumonoultramicroscopicsilicovolcanoconiosis", "Hippopotomonstrosesquippedaliophobia"];
 var currentOption = null;
 var currentWord = '';
 
