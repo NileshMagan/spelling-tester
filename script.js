@@ -79,12 +79,13 @@ alert("oncliiccked: " + word);
 }
 
 
-// Event handlers
-const source = document.getElementById('editable');
-source.addEventListener('input', onEdit);
 
 // On page load
 document.addEventListener("DOMContentLoaded", function(event) {
-  //do work
-  addOptions();
+    // Event handlers
+    const source = document.getElementById('editable');
+    source.addEventListener('input', onEdit);
+
+    // Add options
+    addOptions();
 });
