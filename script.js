@@ -75,7 +75,6 @@ currentOption.style.borderColor = "orange"
 option.style.borderColor = "black";
 currentOption = option;
 currentWord = word;
-alert("oncliiccked: " + word);
 }
 
 
